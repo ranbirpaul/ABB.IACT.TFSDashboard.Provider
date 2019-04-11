@@ -1,0 +1,111 @@
+[
+  {
+    "Name": "Regions",
+    "Id": "5f37378d-430f-48dd-a316-e2b884fe1ca3",
+    "Children": [
+      {
+        "Name": "Singapore",
+        "Id": "8b3a3e50-ab96-48f0-9955-460b31c238cc",
+        "Children": null,
+        "Type": "Location"
+      }
+    ],
+    "Type": "Location"
+  },
+  {
+    "Name": "Singapore",
+    "Id": "8b3a3e50-ab96-48f0-9955-460b31c238cc",
+    "Children": [
+      {
+        "Name": "Singapore",
+        "Id": "1c1899b2-a66b-4c45-850d-3b3b80f62f89",
+        "Children": null,
+        "Type": "Location"
+      }
+    ],
+    "Type": "Location"
+  },
+  {
+    "Name": "Singapore",
+    "Id": "1c1899b2-a66b-4c45-850d-3b3b80f62f89",
+    "Children": [
+      {
+        "Name": "Data Center 1",
+        "Id": "daeddc71-1dc2-48d3-b94c-1dc56630bf01",
+        "Children": null,
+        "Type": "DC"
+      }
+    ],
+    "Type": "Location"
+  },
+  {
+    "Name": "Data Center 1",
+    "Id": "daeddc71-1dc2-48d3-b94c-1dc56630bf01",
+    "Children": [
+      {
+        "Name": "Floor 1",
+        "Id": "596049c8-e1f9-4ac1-9395-8802b04ee8c8",
+        "Children": null,
+        "Type": "Location"
+      }
+    ],
+    "Type": "DC"
+  },
+  {
+    "Name": "Floor 1",
+    "Id": "596049c8-e1f9-4ac1-9395-8802b04ee8c8",
+    "Children": [
+      {
+        "Name": "Rack 1",
+        "Id": "b8bbc13a-85e7-47f5-8c03-29dc6a7aadd6",
+        "Children": null,
+        "Type": "Rack"
+      },
+      {
+        "Name": "Rack 2",
+        "Id": "b46d0770-8ffc-4e3e-87b4-8531b5a39743",
+        "Children": null,
+        "Type": "Rack"
+      }
+    ],
+    "Type": "Location"
+  },
+  {
+    "Name": "Rack 1",
+    "Id": "b8bbc13a-85e7-47f5-8c03-29dc6a7aadd6",
+    "Children": [
+      {
+        "Name": "BCM 1",
+        "Id": "ece1c5a9-1d1b-4f68-a175-e6420dc4cad6",
+        "Children": null,
+        "Type": "BCM"
+      },
+      {
+        "Name": "BCM 2",
+        "Id": "23052d44-7d64-4ddc-b8e5-065e42334766",
+        "Children": null,
+        "Type": "BCM"
+      }
+    ],
+    "Type": "Location"
+  },
+  {
+    "Name": "Rack 2",
+    "Id": "b46d0770-8ffc-4e3e-87b4-8531b5a39743",
+    "Children": [
+      {
+        "Name": "BCM 3",
+        "Id": "73c2ee19-0afd-4f45-a890-404d5a86a0a2",
+        "Children": null,
+        "Type": "BCM"
+      },
+      {
+        "Name": "BCM 4",
+        "Id": "b9dab94e-f513-4f28-9c92-12190349f9ad",
+        "Children": null,
+        "Type": "BCM"
+      }
+    ],
+    "Type": "Location"
+  }
+]
